@@ -716,6 +716,14 @@
             color: rgba(255, 255, 255, 0.6);
         }
 
+        /* Map Container Styles */
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -1270,7 +1278,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <h4>Our Office</h4>
-                                <p>Zara Plaza yahya Gusau road shop no.123<br> Kano state nigeria, Adventure City</p>
+                                <p>Zara Plaza, Yahya Gusau Road<br>Shop No.123, Kano State, Nigeria</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1288,6 +1296,20 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Google Maps Embed in Contact Section -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.92813666182!2d8.493228674104516!3d11.979474435854625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae8065258bae61%3A0xa4607f20a57e9713!2szara%20home%20Center!5e0!3m2!1sen!2sng!4v1764234895138!5m2!1sen!2sng" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
                     <div class="social-links">
                         <a href="https://www.facebook.com/100080454515220/?locale=ga_IE"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1402,12 +1424,30 @@
                 <div class="footer-column">
                     <h3>Contact Info</h3>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Zara Plaza yahya Gusau road shop no.123<br> Kano state nigeria, Adventure City</a></li>
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Abuja state nigeria, Adventure City</a></li>
-                        <li><a href="#"><i class="fas fa-phone"></i> +234 8062361138</a></li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/zara+home+Center" target="_blank">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Zara Plaza, Yahya Gusau Road<br>
+                                Shop No.123, Kano State, Nigeria
+                            </a>
+                        </li>
+                        <li><a href="tel:+2348062361138"><i class="fas fa-phone"></i> +234 8062361138</a></li>
                         <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNqLHVfxXTRNQNMhVmcpxtjMHTrXMfWBMCXZkPJBHtBLMttpRBTrmHQXLlKbtZDpWpNKcL"><i class="fas fa-envelope"></i>Afhallight@gmail.com</a></li>
                         <li><a href="#"><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</a></li>
                     </ul>
+                    
+                    <!-- Google Maps Embed in Footer -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.92813666182!2d8.493228674104516!3d11.979474435854625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae8065258bae61%3A0xa4607f20a57e9713!2szara%20home%20Center!5e0!3m2!1sen!2sng!4v1764234895138!5m2!1sen!2sng" 
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
                 </div>
             </div>
             <div class="copyright">
